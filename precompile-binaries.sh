@@ -59,6 +59,7 @@ export PATH=$PATH:$HOME/.cabal
 # Install a binary that Yesod needs separately
 cabal update
 cabal install happy
+cabal install alex
 find $HOME/.cabal -name "*HS*.o" -delete
 rm -rf $HOME/.cabal/{config,share,packages,logs}
 
