@@ -60,6 +60,7 @@ export PATH=$PATH:$HOME/.cabal
 cabal update
 cabal install happy
 cabal install alex
+cabal install language-c
 find $HOME/.cabal -name "*HS*.o" -delete
 rm -rf $HOME/.cabal/{config,share,packages,logs}
 
